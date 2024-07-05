@@ -31,3 +31,15 @@ def unique(l):
 
 list=[1, 1, 2, 2, 3,0,0, 3, 3, 4, 4, 5,2,2]
 print(unique(list))
+
+    if choose==1:
+        list.append(str(input("kitob nomi: ")))
+    elif choose==2:
+        print(str(input("qidirish: ")) in list)
+    elif choose==3:
+        for l in list:
+            print(l)
+    elif choose==4:
+        break
+    else :
+        print("notogri son")
